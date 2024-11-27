@@ -25,5 +25,7 @@ public class Tugas1 {
         decendingRekursif(n); // untuk memanggil fungsi rekursif
         System.out.print("\nHasil dari fungsi iteratif : ");
         decendingIteratif(n); // mamnggil fungsi iteratif
+
+        sc.close();
     }
 }

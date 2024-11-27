@@ -19,5 +19,7 @@ public class Tugas3 {
         System.out.print("Masukkan sebuah bilangan : ");
         int bilangan = sc.nextInt();
         CekPrimaRekursif(bilangan, faktor);
+
+        sc.close();
     }
 }

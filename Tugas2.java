@@ -15,5 +15,7 @@ public class Tugas2 {
         System.out.print("Masukkan suatu bilangan n : ");
         int n = sc.nextInt();
         System.out.print(" = " + penjumlahanRekursif(n)); // memanggil fungsi rekursif dan mencetak hasil
+
+        sc.close();
     }
 }

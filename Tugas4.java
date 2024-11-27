@@ -13,6 +13,7 @@ public class Tugas4 {
         System.out.print("Masukkan bulan yang ingin di periksa : ");
         int bulan = sc.nextInt();
 
-        System.out.print("Total pasangan pada bulan ke-" + bulan + " adalah " + fibonacciRekursif(bulan) + " pasang ") ;
+        System.out.print("Jumlah pasangan marmut pada bulan ke-" + bulan + " adalah " + fibonacciRekursif(bulan) + " pasang ") ;
+        sc.close();
     }
 }
